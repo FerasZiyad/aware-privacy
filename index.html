@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aware Privacy Policy</title>
+  <style>
+    :root {
+      --ground: #fbfbfa;
+      --text: #1d1d1b;
+      --muted: #5f5f5b;
+      --border: #e3e3df;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ground: #141413;
+        --text: #ededea;
+        --muted: #a3a39e;
+        --border: #2c2c2a;
+      }
+    }
+
+    body {
+      margin: 0;
+      background: var(--ground);
+      color: var(--text);
+      font: 16px/1.6 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 16px 64px;
+    }
+
+    h1 {
+      margin: 0 0 4px;
+      font-size: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      margin: 32px 0 8px;
+      font-size: 18px;
+    }
+
+    .updated {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+    }
+
+    th,
+    td {
+      padding: 8px 8px 8px 0;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    code {
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Aware Privacy Policy</h1>
+    <p class="updated">Last updated 1 November 2026</p>
+
+    <p>
+      Aware is a browser extension that measures and limits the time you spend on sites you choose. It is built so that
+      your data never leaves your device: there is no Aware server, no account, no analytics and no advertising.
+    </p>
+
+    <h2>What Aware stores</h2>
+    <p>Everything below is kept in your browser's extension storage (<code>chrome.storage.local</code>) on your device
+      only.</p>
+    <table>
+      <tr>
+        <th>Data</th>
+        <th>Why</th>
+      </tr>
+      <tr>
+        <td>Time spent per day on the sites you add</td>
+        <td>Daily limits, the report and the popup</td>
+      </tr>
+      <tr>
+        <td>YouTube channels you watch, with time and video counts</td>
+        <td>The channel report, productive channels and channel blocking</td>
+      </tr>
+      <tr>
+        <td>Your YouTube subscription list, if you import it</td>
+        <td>Showing Shorts and suggestions from your subscriptions only</td>
+      </tr>
+      <tr>
+        <td>Your settings, modes and commitments</td>
+        <td>Applying the rules you set</td>
+      </tr>
+      <tr>
+        <td>Your Toggl API token, if you connect Toggl</td>
+        <td>Reading your Toggl time entries</td>
+      </tr>
+    </table>
+    <p>
+      Aware keeps up to two years of daily history and deletes older days automatically. Removing the extension deletes
+      all of it.
+    </p>
+
+    <h2>What Aware sends, and to whom</h2>
+    <p>Aware sends nothing to its developer. It only talks to two services, and only for features you turn on:</p>
+    <ul>
+      <li>
+        <strong>Toggl Track</strong> (<code>api.track.toggl.com</code>), if you connect it. Aware sends your API token
+        to
+        read your profile, projects and time entries. It never creates or changes entries. Toggl's own privacy policy
+        applies to that data.
+      </li>
+      <li>
+        <strong>YouTube</strong> (<code>youtube.com</code>), using your existing signed-in session, when you import your
+        subscriptions or ask Aware to unsubscribe from a channel. Unsubscribing opens a YouTube tab and presses
+        Unsubscribe on your behalf, only for the channels you select.
+      </li>
+    </ul>
+
+    <h2>What Aware reads on pages</h2>
+    <p>
+      To enforce your rules, Aware runs on web pages and reads the address of the page and, on YouTube, the channel and
+      video being shown. This is used on your device to count time and hide or block content, and it is not recorded
+      beyond the data listed above.
+    </p>
+
+    <h2>Exports</h2>
+    <p>The CSV exports are created on your device and saved wherever you choose. Aware does not upload them.</p>
+
+    <h2>Sale and sharing</h2>
+    <p>
+      Aware does not sell, transfer or share your data with anyone, does not use it for advertising or creditworthiness,
+      and does not use it for anything other than the features described here.
+    </p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the date at the top will change with it.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy: feraswaraq@gmail.com</p>
+  </main>
+</body>
+
+</html>
